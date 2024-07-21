@@ -9,8 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Multiventas_Krisstelle
-{
-    
+{ 
     public partial class Inventario : Form
     {
         private Panel panelSuperior;
@@ -18,6 +17,11 @@ namespace Multiventas_Krisstelle
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
+        }
+
+        private void btnSalirInventario_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

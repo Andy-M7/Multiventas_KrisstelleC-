@@ -137,5 +137,11 @@
   <ItemGroup>
     <None Include="IMG\botonSalir.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="IMG\Inventario.png" />
+    <None Include="Resources\Inventario63.png" />
+    <None Include="Resources\RegistrarProducto.png" />
+    <None Include="Resources\Inventario.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

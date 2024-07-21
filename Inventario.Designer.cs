@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnSalirInventario = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.botonRedondo2 = new Multiventas_Krisstelle.ObjetosPersonalizados.BotonRedondo();
-            this.botonRedondo1 = new Multiventas_Krisstelle.ObjetosPersonalizados.BotonRedondo();
-            this.botonRedondo3 = new Multiventas_Krisstelle.ObjetosPersonalizados.BotonRedondo();
+            this.btnSalirInventario = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblCajero = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,6 +48,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(659, 57);
             this.panel1.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(246, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(139, 29);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Inventario";
             // 
             // btnSalirInventario
             // 
@@ -62,75 +74,71 @@
             this.btnSalirInventario.TabIndex = 2;
             this.btnSalirInventario.Text = "X";
             this.btnSalirInventario.UseVisualStyleBackColor = false;
+            this.btnSalirInventario.Click += new System.EventHandler(this.btnSalirInventario_Click);
             // 
-            // label1
+            // button2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(246, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(139, 29);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Inventario";
+            this.button2.CausesValidation = false;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Image = global::Multiventas_Krisstelle.Properties.Resources.RegistrarProducto;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button2.Location = new System.Drawing.Point(399, 170);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(145, 137);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Registro De Producto";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // botonRedondo2
+            // button1
             // 
-            this.botonRedondo2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.botonRedondo2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.botonRedondo2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.botonRedondo2.FlatAppearance.BorderSize = 0;
-            this.botonRedondo2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.botonRedondo2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.botonRedondo2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonRedondo2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.botonRedondo2.Location = new System.Drawing.Point(89, 170);
-            this.botonRedondo2.Name = "botonRedondo2";
-            this.botonRedondo2.Size = new System.Drawing.Size(104, 95);
-            this.botonRedondo2.TabIndex = 6;
-            this.botonRedondo2.Text = "Ingreso de Productos";
-            this.botonRedondo2.UseVisualStyleBackColor = false;
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = global::Multiventas_Krisstelle.Properties.Resources.Inventario63;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button1.Location = new System.Drawing.Point(117, 170);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(3);
+            this.button1.Size = new System.Drawing.Size(139, 137);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Recepcion De Producto";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // botonRedondo1
+            // label2
             // 
-            this.botonRedondo1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.botonRedondo1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.botonRedondo1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonRedondo1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.botonRedondo1.Location = new System.Drawing.Point(280, 170);
-            this.botonRedondo1.Name = "botonRedondo1";
-            this.botonRedondo1.Size = new System.Drawing.Size(104, 95);
-            this.botonRedondo1.TabIndex = 7;
-            this.botonRedondo1.Text = "botonRedondo1";
-            this.botonRedondo1.UseVisualStyleBackColor = false;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(464, 491);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(59, 14);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "CAJERO:";
             // 
-            // botonRedondo3
+            // lblCajero
             // 
-            this.botonRedondo3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.botonRedondo3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.botonRedondo3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonRedondo3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.botonRedondo3.Location = new System.Drawing.Point(473, 170);
-            this.botonRedondo3.Name = "botonRedondo3";
-            this.botonRedondo3.Size = new System.Drawing.Size(104, 95);
-            this.botonRedondo3.TabIndex = 8;
-            this.botonRedondo3.Text = "botonRedondo3";
-            this.botonRedondo3.UseVisualStyleBackColor = false;
+            this.lblCajero.AutoSize = true;
+            this.lblCajero.Location = new System.Drawing.Point(540, 492);
+            this.lblCajero.Name = "lblCajero";
+            this.lblCajero.Size = new System.Drawing.Size(27, 13);
+            this.lblCajero.TabIndex = 8;
+            this.lblCajero.Text = "user";
             // 
             // Inventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(657, 535);
-            this.Controls.Add(this.botonRedondo3);
-            this.Controls.Add(this.botonRedondo1);
-            this.Controls.Add(this.botonRedondo2);
+            this.Controls.Add(this.lblCajero);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Name = "Inventario";
-            this.Text = "Inventario";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -139,8 +147,9 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnSalirInventario;
         private System.Windows.Forms.Label label1;
-        private ObjetosPersonalizados.BotonRedondo botonRedondo2;
-        private ObjetosPersonalizados.BotonRedondo botonRedondo1;
-        private ObjetosPersonalizados.BotonRedondo botonRedondo3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblCajero;
     }
 }

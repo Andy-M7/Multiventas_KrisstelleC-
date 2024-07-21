@@ -93,6 +93,26 @@ namespace Multiventas_Krisstelle.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Inventario {
+            get {
+                object obj = ResourceManager.GetObject("Inventario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Inventario63 {
+            get {
+                object obj = ResourceManager.GetObject("Inventario63", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Negro_Círculo_con_Cubiertos_Restaurante_Logo__2__removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("Negro_Círculo_con_Cubiertos_Restaurante_Logo__2_-removebg-preview", resourceCulture);
@@ -106,6 +126,16 @@ namespace Multiventas_Krisstelle.Properties {
         internal static System.Drawing.Bitmap Negro_Círculo_con_Cubiertos_Restaurante_Logo__2__removebg_preview1 {
             get {
                 object obj = ResourceManager.GetObject("Negro_Círculo_con_Cubiertos_Restaurante_Logo__2_-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RegistrarProducto {
+            get {
+                object obj = ResourceManager.GetObject("RegistrarProducto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
