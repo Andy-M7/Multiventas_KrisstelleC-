@@ -40,7 +40,8 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.BackColor = System.Drawing.Color.Red;
+            this.btnSalir.BackColor = System.Drawing.Color.IndianRed;
+            this.btnSalir.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnSalir.Location = new System.Drawing.Point(609, 10);
@@ -49,7 +50,6 @@
             this.btnSalir.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnSalir.Size = new System.Drawing.Size(33, 25);
             this.btnSalir.TabIndex = 2;
-            this.btnSalir.Text = "X";
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
@@ -77,7 +77,7 @@
             // btnInventario
             // 
             this.btnInventario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnInventario.Location = new System.Drawing.Point(2, 0);
+            this.btnInventario.Location = new System.Drawing.Point(2, 2);
             this.btnInventario.Margin = new System.Windows.Forms.Padding(2);
             this.btnInventario.Name = "btnInventario";
             this.btnInventario.Size = new System.Drawing.Size(135, 37);
