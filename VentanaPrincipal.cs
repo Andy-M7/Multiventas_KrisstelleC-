@@ -11,12 +11,12 @@ using System.Drawing.Drawing2D;
 
 namespace Multiventas_Krisstelle
 {
-    public partial class Form3 : Form
+    public partial class VentanaPrincipal : Form
     {
 
         private Panel panelSuperior; // Declaración del panel superior
 
-        public Form3()
+        public VentanaPrincipal()
         {
             InitializeComponent();
             // Establecer el inicio del formulario en pantalla completa

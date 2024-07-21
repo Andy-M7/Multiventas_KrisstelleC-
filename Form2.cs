@@ -105,7 +105,7 @@ namespace Multiventas_Krisstelle
                 // Aquí puedes agregar el código para registrar el dinero en caja
 
                 // Crear una instancia de Form3
-                Form3 form3 = new Form3();
+                VentanaPrincipal form3 = new VentanaPrincipal();
 
                 // Mostrar Form3
                 form3.Show();
