@@ -69,7 +69,9 @@ namespace Multiventas_Krisstelle
         private void btnInventario_Click(object sender, EventArgs e)
         {
             Inventario form4 = new Inventario();
-            form4.ShowDialog();
+            // Mostrar Form4
+            form4.Show();
+            //form4.ShowDialog();
         }
     }
 }

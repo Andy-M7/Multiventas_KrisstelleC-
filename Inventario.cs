@@ -10,11 +10,14 @@ using System.Windows.Forms;
 
 namespace Multiventas_Krisstelle
 {
+    
     public partial class Inventario : Form
     {
+        private Panel panelSuperior;
         public Inventario()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None;
         }
     }
 }

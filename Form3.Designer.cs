@@ -32,8 +32,8 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnReportes = new System.Windows.Forms.Button();
-            this.btnInventario = new System.Windows.Forms.Button();
             this.btnProductos = new System.Windows.Forms.Button();
+            this.btnInventario = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -79,19 +79,6 @@
             this.btnReportes.Text = "VENTAS";
             this.btnReportes.UseVisualStyleBackColor = false;
             // 
-            // btnInventario
-            // 
-            this.btnInventario.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.btnInventario.FlatAppearance.BorderSize = 0;
-            this.btnInventario.Location = new System.Drawing.Point(13, 10);
-            this.btnInventario.Margin = new System.Windows.Forms.Padding(2);
-            this.btnInventario.Name = "btnInventario";
-            this.btnInventario.Size = new System.Drawing.Size(135, 37);
-            this.btnInventario.TabIndex = 4;
-            this.btnInventario.Text = "INVENTARIO";
-            this.btnInventario.UseVisualStyleBackColor = false;
-            this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click);
-            // 
             // btnProductos
             // 
             this.btnProductos.BackColor = System.Drawing.Color.PaleTurquoise;
@@ -105,13 +92,26 @@
             this.btnProductos.UseVisualStyleBackColor = false;
             this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click);
             // 
+            // btnInventario
+            // 
+            this.btnInventario.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnInventario.FlatAppearance.BorderSize = 0;
+            this.btnInventario.Location = new System.Drawing.Point(13, 10);
+            this.btnInventario.Margin = new System.Windows.Forms.Padding(2);
+            this.btnInventario.Name = "btnInventario";
+            this.btnInventario.Size = new System.Drawing.Size(135, 37);
+            this.btnInventario.TabIndex = 4;
+            this.btnInventario.Text = "INVENTARIO";
+            this.btnInventario.UseVisualStyleBackColor = false;
+            this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click);
+            // 
             // label1
             // 
             this.label1.AllowDrop = true;
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoEllipsis = true;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(113, 106);
+            this.label1.Location = new System.Drawing.Point(115, 118);
             this.label1.MaximumSize = new System.Drawing.Size(400, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(400, 364);
@@ -125,7 +125,7 @@
             this.AutoScroll = true;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(651, 540);
+            this.ClientSize = new System.Drawing.Size(650, 582);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
