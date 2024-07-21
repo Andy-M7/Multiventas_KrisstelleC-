@@ -21,8 +21,15 @@ namespace Multiventas_Krisstelle
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // Crea una instancia del formulario a agregar
             FormAgregarProducto formAgregarProducto = new FormAgregarProducto();
-            formAgregarProducto.ShowDialog();
+            formAgregarProducto.TopLevel = false; // Hace que el formulario no sea de nivel superior
+            formAgregarProducto.FormBorderStyle = FormBorderStyle.None; // Quita los bordes del formulario
+            formAgregarProducto.Dock = DockStyle.Fill; // Ajusta el formulario al tamaño de panel2
+
+            // Agrega el formulario a panel2 y lo muestra
+            panel2.Controls.Add(formAgregarProducto);
+            formAgregarProducto.Show();
         }
     }
 }
