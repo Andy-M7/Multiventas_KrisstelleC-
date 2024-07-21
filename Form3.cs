@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Drawing2D;
 
 namespace Multiventas_Krisstelle
 {
@@ -23,13 +24,13 @@ namespace Multiventas_Krisstelle
             this.FormBorderStyle = FormBorderStyle.None;
 
             // Configurar el botón btnSalir
-            btnSalir.Text = "X";
-            btnSalir.Location = new Point(this.Width - btnSalir.Width - 20, 20); // Posición en la esquina superior derecha
+            //btnSalir.Text = "X";
+            //btnSalir.Location = new Point(this.Width - btnSalir.Width - 20, 20); // Posición en la esquina superior derecha
             btnSalir.Anchor = AnchorStyles.Top | AnchorStyles.Right; // Anclar al borde superior y derecho del formulario
             btnSalir.Click += btnSalir_Click; // Asociar evento Click
             // Eventos para sombrear el botón al pasar el cursor sobre él
             btnSalir.MouseEnter += btnSalir_MouseEnter;
-            btnSalir.MouseLeave += btnSalir_MouseLeave;
+            btnSalir.MouseLeave += btnSalir_MouseLeave;    
 
             // Configurar el panel superior
             panel1.Dock = DockStyle.Top; // Alinear al borde superior del formulario
@@ -51,7 +52,7 @@ namespace Multiventas_Krisstelle
         private void btnSalir_MouseLeave(object sender, EventArgs e)
         {
             // Restaurar el color de fondo (o cualquier otro estilo) cuando el cursor sale del botón
-            btnSalir.BackColor = Color.Red;
+            /*btnSalir.BackColor = Color.Red;*/
         }
 
         private void btnProductos_Click(object sender, EventArgs e)
