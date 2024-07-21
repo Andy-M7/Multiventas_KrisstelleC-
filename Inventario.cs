@@ -23,5 +23,12 @@ namespace Multiventas_Krisstelle
         {
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Crea una instancia del formulario a agregar
+            FormAgregarProducto formAgregarProducto = new FormAgregarProducto();
+            formAgregarProducto.Show();
+        }
     }
 }
