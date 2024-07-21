@@ -15,11 +15,14 @@ namespace Multiventas_Krisstelle
         public FormProductos()
         {
             InitializeComponent();
+
+            panel1.Dock = DockStyle.Top; // Alinear al borde superior del formulario
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            FormAgregarProducto formAgregarProducto = new FormAgregarProducto();
+            formAgregarProducto.ShowDialog();
         }
     }
 }
