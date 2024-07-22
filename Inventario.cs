@@ -36,5 +36,7 @@ namespace Multiventas_Krisstelle
             FormRecepcionProductos formRecepcion = new FormRecepcionProductos();
             formRecepcion.Show();
         }
+
+
     }
 }

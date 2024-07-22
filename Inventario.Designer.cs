@@ -32,9 +32,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnSalirInventario = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblCajero = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +44,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnSalirInventario);
             this.panel1.Location = new System.Drawing.Point(-1, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(659, 57);
             this.panel1.TabIndex = 4;
@@ -67,7 +67,7 @@
             this.btnSalirInventario.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalirInventario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnSalirInventario.Location = new System.Drawing.Point(598, 10);
-            this.btnSalirInventario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSalirInventario.Margin = new System.Windows.Forms.Padding(2);
             this.btnSalirInventario.Name = "btnSalirInventario";
             this.btnSalirInventario.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnSalirInventario.Size = new System.Drawing.Size(44, 37);
@@ -85,15 +85,6 @@
             this.label2.Size = new System.Drawing.Size(95, 14);
             this.label2.TabIndex = 7;
             this.label2.Text = "ALMACENERO:";
-            // 
-            // lblCajero
-            // 
-            this.lblCajero.AutoSize = true;
-            this.lblCajero.Location = new System.Drawing.Point(540, 492);
-            this.lblCajero.Name = "lblCajero";
-            this.lblCajero.Size = new System.Drawing.Size(27, 13);
-            this.lblCajero.TabIndex = 8;
-            this.lblCajero.Text = "user";
             // 
             // button2
             // 
@@ -126,12 +117,21 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(542, 491);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(37, 13);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "USER";
+            // 
             // Inventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(657, 535);
-            this.Controls.Add(this.lblCajero);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -152,6 +152,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblCajero;
+        private System.Windows.Forms.Label label3;
     }
 }
