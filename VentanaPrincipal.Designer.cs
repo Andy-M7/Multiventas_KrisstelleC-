@@ -71,7 +71,7 @@
             // 
             this.btnReportes.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnReportes.FlatAppearance.BorderSize = 0;
-            this.btnReportes.Location = new System.Drawing.Point(507, 12);
+            this.btnReportes.Location = new System.Drawing.Point(280, 11);
             this.btnReportes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(180, 47);
@@ -83,12 +83,12 @@
             // 
             this.btnProductos.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnProductos.FlatAppearance.BorderSize = 0;
-            this.btnProductos.Location = new System.Drawing.Point(261, 12);
+            this.btnProductos.Location = new System.Drawing.Point(527, 11);
             this.btnProductos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnProductos.Name = "btnProductos";
             this.btnProductos.Size = new System.Drawing.Size(180, 47);
             this.btnProductos.TabIndex = 3;
-            this.btnProductos.Text = "PRODUCTOS";
+            this.btnProductos.Text = "ADMINISTRACIÓN";
             this.btnProductos.UseVisualStyleBackColor = false;
             this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click);
             // 
@@ -96,7 +96,7 @@
             // 
             this.btnInventario.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnInventario.FlatAppearance.BorderSize = 0;
-            this.btnInventario.Location = new System.Drawing.Point(17, 12);
+            this.btnInventario.Location = new System.Drawing.Point(36, 12);
             this.btnInventario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnInventario.Name = "btnInventario";
             this.btnInventario.Size = new System.Drawing.Size(180, 46);
@@ -119,7 +119,7 @@
             this.label1.TabIndex = 4;
             this.label1.Text = resources.GetString("label1.Text");
             // 
-            // Form3
+            // VentanaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -129,7 +129,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Form3";
+            this.Name = "VentanaPrincipal";
             this.Text = "Form3";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
