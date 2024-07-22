@@ -73,5 +73,11 @@ namespace Multiventas_Krisstelle
             form4.Show();
             //form4.ShowDialog();
         }
+
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            Ventas ventas = new Ventas();
+            ventas.Show();
+        }
     }
 }
