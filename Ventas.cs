@@ -16,5 +16,10 @@ namespace Multiventas_Krisstelle
         {
             InitializeComponent();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
