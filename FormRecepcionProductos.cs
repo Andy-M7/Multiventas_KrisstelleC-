@@ -17,6 +17,7 @@ namespace Multiventas_Krisstelle
         public FormRecepcionProductos()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None;
             printDocument.PrintPage += new PrintPageEventHandler(PrintDocument_PrintPage);
         }
 

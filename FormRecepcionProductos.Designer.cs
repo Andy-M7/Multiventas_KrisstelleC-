@@ -73,6 +73,7 @@
             // 
             // panel1
             // 
+            this.panel1.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(59)))), ((int)(((byte)(78)))));
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnSalirInventario);
@@ -149,8 +150,9 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(74, 300);
             this.textBox4.MinimumSize = new System.Drawing.Size(300, 100);
+            this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(300, 100);
+            this.textBox4.Size = new System.Drawing.Size(300, 153);
             this.textBox4.TabIndex = 14;
             // 
             // dateTimePicker1
