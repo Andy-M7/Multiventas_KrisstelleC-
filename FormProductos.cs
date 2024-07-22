@@ -21,12 +21,26 @@ namespace Multiventas_Krisstelle
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void FormProductos_Load(object sender, EventArgs e)
         {
 
+        }
+
+        
+
+        private void btnSolicitarCotizacion_Click(object sender, EventArgs e)
+        {
+            FormSolicitarCotizacion formSolicitarCotizacion = new FormSolicitarCotizacion();
+            formSolicitarCotizacion.Show();
+        }
+
+        private void btnBuscarProducto_Click(object sender, EventArgs e)
+        {
+            FormBuscarProducto formBuscarProducto = new FormBuscarProducto();
+            formBuscarProducto.Show();
         }
     }
 }

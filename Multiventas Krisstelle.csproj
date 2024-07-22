@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormBuscarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormBuscarProducto.Designer.cs">
+      <DependentUpon>FormBuscarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSolicitarCotizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSolicitarCotizacion.Designer.cs">
+      <DependentUpon>FormSolicitarCotizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
@@ -58,11 +70,11 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="VentanaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="VentanaPrincipal.Designer.cs">
+      <DependentUpon>VentanaPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="FormAgregarProducto.cs">
       <SubType>Form</SubType>
@@ -93,14 +105,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormBuscarProducto.resx">
+      <DependentUpon>FormBuscarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSolicitarCotizacion.resx">
+      <DependentUpon>FormSolicitarCotizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="VentanaPrincipal.resx">
+      <DependentUpon>VentanaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAgregarProducto.resx">
       <DependentUpon>FormAgregarProducto.cs</DependentUpon>

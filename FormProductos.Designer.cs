@@ -29,62 +29,23 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.btnSolicitarCotizacion = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnBuscarProducto = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Cyan;
+            this.panel1.Controls.Add(this.btnBuscarProducto);
             this.panel1.Controls.Add(this.btnSalir);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.btnSolicitarCotizacion);
             this.panel1.Location = new System.Drawing.Point(0, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1244, 64);
             this.panel1.TabIndex = 1;
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(367, 9);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(219, 42);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Solicitar Cotización";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(47, 7);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(195, 42);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Buscar Producto";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(712, 9);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(232, 42);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Seleccionar Proveedor";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // panel2
-            // 
-            this.panel2.Location = new System.Drawing.Point(0, 61);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1244, 541);
-            this.panel2.TabIndex = 2;
             // 
             // btnSalir
             // 
@@ -101,6 +62,35 @@
             this.btnSalir.Text = "X";
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // btnSolicitarCotizacion
+            // 
+            this.btnSolicitarCotizacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSolicitarCotizacion.Location = new System.Drawing.Point(367, 9);
+            this.btnSolicitarCotizacion.Name = "btnSolicitarCotizacion";
+            this.btnSolicitarCotizacion.Size = new System.Drawing.Size(219, 42);
+            this.btnSolicitarCotizacion.TabIndex = 3;
+            this.btnSolicitarCotizacion.Text = "Solicitar Cotización";
+            this.btnSolicitarCotizacion.UseVisualStyleBackColor = true;
+            this.btnSolicitarCotizacion.Click += new System.EventHandler(this.btnSolicitarCotizacion_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(0, 61);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1244, 541);
+            this.panel2.TabIndex = 2;
+            // 
+            // btnBuscarProducto
+            // 
+            this.btnBuscarProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscarProducto.Location = new System.Drawing.Point(74, 9);
+            this.btnBuscarProducto.Name = "btnBuscarProducto";
+            this.btnBuscarProducto.Size = new System.Drawing.Size(195, 42);
+            this.btnBuscarProducto.TabIndex = 5;
+            this.btnBuscarProducto.Text = "Buscar Producto";
+            this.btnBuscarProducto.UseVisualStyleBackColor = true;
+            this.btnBuscarProducto.Click += new System.EventHandler(this.btnBuscarProducto_Click);
             // 
             // FormProductos
             // 
@@ -121,10 +111,9 @@
 
         #endregion
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSolicitarCotizacion;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button btnBuscarProducto;
     }
 }
