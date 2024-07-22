@@ -14,11 +14,17 @@ namespace Multiventas_Krisstelle
     public partial class FormRecepcionProductos : Form
     {
         private PrintDocument printDocument = new PrintDocument();
+        string codigo = "";
+        string cantidad = "";
+        string fecha = "";
+        string observaciones = "";
         public FormRecepcionProductos()
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
             printDocument.PrintPage += new PrintPageEventHandler(PrintDocument_PrintPage);
+            // VARIABLES PARA BASE DE DATOS
+            
         }
 
         private void btnSalirInventario_Click(object sender, EventArgs e)
@@ -31,6 +37,11 @@ namespace Multiventas_Krisstelle
             PrintPreviewDialog printPreviewDialog = new PrintPreviewDialog();
             printPreviewDialog.Document = printDocument;
 
+            codigo = txtCodIngreso.Text;
+            cantidad = numUp.Value.ToString();
+            fecha = dtpFecha.Value.ToString("dd/MM/yyyy");
+            observaciones = txtObservation.Text;
+
             // Configura la impresora PDF (asegúrate de que tienes una impresora PDF instalada, como Microsoft Print to PDF)
             PrintDialog printDialog = new PrintDialog();
             printDialog.Document = printDocument;
@@ -39,6 +50,7 @@ namespace Multiventas_Krisstelle
                 printDocument.PrinterSettings = printDialog.PrinterSettings;
                 printDocument.Print();
             }
+
         }
 
         private void PrintDocument_PrintPage(object sender, PrintPageEventArgs e)
@@ -52,13 +64,17 @@ namespace Multiventas_Krisstelle
             // Título
             g.DrawString("Reporte de Recepción de Productos", new Font("Arial", 18), Brushes.Black, leftMargin, yPos);
             yPos += 50;
+            g.DrawString(fecha, new Font("Arial", 10), Brushes.Black, leftMargin, yPos);
+            yPos += 300;
 
             // Datos del reporte (ejemplo)
-            g.DrawString("Producto 1: Detalle del producto 1", new Font("Arial", 12), Brushes.Black, leftMargin, yPos);
+            g.DrawString("Producto 1:"+ codigo, new Font("Arial", 12), Brushes.Black, leftMargin, yPos);
             yPos += 30;
-            g.DrawString("Producto 2: Detalle del producto 2", new Font("Arial", 12), Brushes.Black, leftMargin, yPos);
+            
+            g.DrawString("Cantidad: " + cantidad, new Font("Arial", 12), Brushes.Black, leftMargin, yPos);
             yPos += 30;
-            g.DrawString("Producto 3: Detalle del producto 3", new Font("Arial", 12), Brushes.Black, leftMargin, yPos);
+
+            g.DrawString(" Detalle del producto :" + observaciones, new Font("Arial", 12), Brushes.Black, leftMargin, yPos);
             yPos += 30;
 
             // Puedes añadir más productos aquí...

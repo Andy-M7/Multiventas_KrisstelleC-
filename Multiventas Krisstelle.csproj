@@ -111,6 +111,9 @@
     <Compile Include="Ventas.Designer.cs">
       <DependentUpon>Ventas.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormBuscarProducto.resx">
+      <DependentUpon>FormBuscarProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormSolicitarCotizacion.resx">
       <DependentUpon>FormSolicitarCotizacion.cs</DependentUpon>
     </EmbeddedResource>

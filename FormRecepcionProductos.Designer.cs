@@ -37,11 +37,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.txtCodIngreso = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.txtObservation = new System.Windows.Forms.TextBox();
+            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
+            this.numUp = new System.Windows.Forms.NumericUpDown();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUp)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -77,7 +77,7 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(59)))), ((int)(((byte)(78)))));
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnSalirInventario);
-            this.panel1.Location = new System.Drawing.Point(2, 1);
+            this.panel1.Location = new System.Drawing.Point(2, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(659, 57);
@@ -146,41 +146,41 @@
             this.txtCodIngreso.Size = new System.Drawing.Size(133, 20);
             this.txtCodIngreso.TabIndex = 11;
             // 
-            // textBox4
+            // txtObservation
             // 
-            this.textBox4.Location = new System.Drawing.Point(74, 300);
-            this.textBox4.MinimumSize = new System.Drawing.Size(300, 100);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(300, 153);
-            this.textBox4.TabIndex = 14;
+            this.txtObservation.Location = new System.Drawing.Point(74, 300);
+            this.txtObservation.MinimumSize = new System.Drawing.Size(300, 100);
+            this.txtObservation.Multiline = true;
+            this.txtObservation.Name = "txtObservation";
+            this.txtObservation.Size = new System.Drawing.Size(300, 153);
+            this.txtObservation.TabIndex = 14;
             // 
-            // dateTimePicker1
+            // dtpFecha
             // 
-            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dateTimePicker1.Enabled = false;
-            this.dateTimePicker1.Location = new System.Drawing.Point(451, 89);
-            this.dateTimePicker1.MaxDate = new System.DateTime(2024, 7, 21, 18, 7, 19, 0);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(198, 20);
-            this.dateTimePicker1.TabIndex = 15;
-            this.dateTimePicker1.Value = new System.DateTime(2024, 7, 21, 0, 0, 0, 0);
+            this.dtpFecha.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dtpFecha.Enabled = false;
+            this.dtpFecha.Location = new System.Drawing.Point(450, 89);
+            this.dtpFecha.MaxDate = new System.DateTime(2024, 7, 21, 18, 7, 19, 0);
+            this.dtpFecha.Name = "dtpFecha";
+            this.dtpFecha.Size = new System.Drawing.Size(198, 20);
+            this.dtpFecha.TabIndex = 15;
+            this.dtpFecha.Value = new System.DateTime(2024, 7, 21, 0, 0, 0, 0);
             // 
-            // numericUpDown1
+            // numUp
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(393, 177);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(129, 20);
-            this.numericUpDown1.TabIndex = 16;
+            this.numUp.Location = new System.Drawing.Point(393, 177);
+            this.numUp.Name = "numUp";
+            this.numUp.Size = new System.Drawing.Size(129, 20);
+            this.numUp.TabIndex = 16;
             // 
             // FormRecepcionProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(660, 621);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.numUp);
+            this.Controls.Add(this.dtpFecha);
+            this.Controls.Add(this.txtObservation);
             this.Controls.Add(this.txtCodIngreso);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label5);
@@ -192,7 +192,7 @@
             this.Text = "FormRecepcionProductos";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,8 +209,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtCodIngreso;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.TextBox txtObservation;
+        private System.Windows.Forms.DateTimePicker dtpFecha;
+        private System.Windows.Forms.NumericUpDown numUp;
     }
 }
