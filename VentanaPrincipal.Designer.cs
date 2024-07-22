@@ -49,11 +49,11 @@
             this.btnSalir.FlatAppearance.BorderColor = System.Drawing.Color.IndianRed;
             this.btnSalir.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnSalir.Location = new System.Drawing.Point(881, 9);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSalir.Location = new System.Drawing.Point(661, 7);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnSalir.Size = new System.Drawing.Size(59, 46);
+            this.btnSalir.Size = new System.Drawing.Size(44, 37);
             this.btnSalir.TabIndex = 2;
             this.btnSalir.Text = "X";
             this.btnSalir.UseVisualStyleBackColor = false;
@@ -66,20 +66,20 @@
             this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Controls.Add(this.btnProductos);
             this.panel1.Controls.Add(this.btnInventario);
-            this.panel1.Location = new System.Drawing.Point(-3, -1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(-2, -1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(952, 70);
+            this.panel1.Size = new System.Drawing.Size(714, 57);
             this.panel1.TabIndex = 3;
             // 
             // btnReportes
             // 
             this.btnReportes.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnReportes.FlatAppearance.BorderSize = 0;
-            this.btnReportes.Location = new System.Drawing.Point(360, 11);
-            this.btnReportes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnReportes.Location = new System.Drawing.Point(270, 9);
+            this.btnReportes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Size = new System.Drawing.Size(180, 47);
+            this.btnReportes.Size = new System.Drawing.Size(135, 38);
             this.btnReportes.TabIndex = 4;
             this.btnReportes.Text = "VENTAS";
             this.btnReportes.UseVisualStyleBackColor = false;
@@ -89,10 +89,10 @@
             // 
             this.btnProductos.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnProductos.FlatAppearance.BorderSize = 0;
-            this.btnProductos.Location = new System.Drawing.Point(638, 11);
-            this.btnProductos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnProductos.Location = new System.Drawing.Point(478, 9);
+            this.btnProductos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnProductos.Name = "btnProductos";
-            this.btnProductos.Size = new System.Drawing.Size(180, 47);
+            this.btnProductos.Size = new System.Drawing.Size(135, 38);
             this.btnProductos.TabIndex = 3;
             this.btnProductos.Text = "ADMINISTRACIÓN";
             this.btnProductos.UseVisualStyleBackColor = false;
@@ -102,10 +102,10 @@
             // 
             this.btnInventario.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnInventario.FlatAppearance.BorderSize = 0;
-            this.btnInventario.Location = new System.Drawing.Point(66, 12);
-            this.btnInventario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnInventario.Location = new System.Drawing.Point(50, 10);
+            this.btnInventario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnInventario.Name = "btnInventario";
-            this.btnInventario.Size = new System.Drawing.Size(180, 46);
+            this.btnInventario.Size = new System.Drawing.Size(135, 37);
             this.btnInventario.TabIndex = 4;
             this.btnInventario.Text = "INVENTARIO";
             this.btnInventario.UseVisualStyleBackColor = false;
@@ -114,17 +114,14 @@
             // label1
             // 
             this.label1.AllowDrop = true;
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoEllipsis = true;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(321, 202);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.MaximumSize = new System.Drawing.Size(533, 0);
+            this.label1.Location = new System.Drawing.Point(241, 164);
+            this.label1.MaximumSize = new System.Drawing.Size(400, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(532, 110);
+            this.label1.Size = new System.Drawing.Size(400, 108);
             this.label1.TabIndex = 4;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -135,9 +132,10 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::Multiventas_Krisstelle.Properties.Resources.bg;
             this.pictureBox2.Image = global::Multiventas_Krisstelle.Properties.Resources.LOGOBLANCO;
-            this.pictureBox2.Location = new System.Drawing.Point(412, 527);
+            this.pictureBox2.Location = new System.Drawing.Point(309, 428);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(139, 122);
+            this.pictureBox2.Size = new System.Drawing.Size(104, 99);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
@@ -149,9 +147,10 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pictureBox1.Image = global::Multiventas_Krisstelle.Properties.Resources.bg;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 488);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 397);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(949, 228);
+            this.pictureBox1.Size = new System.Drawing.Size(712, 185);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -164,25 +163,26 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Image = global::Multiventas_Krisstelle.Properties.Resources.bg;
-            this.label2.Location = new System.Drawing.Point(337, 667);
+            this.label2.Location = new System.Drawing.Point(253, 542);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(314, 18);
+            this.label2.Size = new System.Drawing.Size(267, 15);
             this.label2.TabIndex = 8;
             this.label2.Text = "Copyright © 2024 - Multiventas Krisstelle";
             // 
             // VentanaPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(949, 716);
+            this.ClientSize = new System.Drawing.Size(712, 582);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "VentanaPrincipal";
             this.Text = "Form3";
             this.panel1.ResumeLayout(false);

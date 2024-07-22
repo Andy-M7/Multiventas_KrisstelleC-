@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAgregarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgregarProveedor.Designer.cs">
+      <DependentUpon>FormAgregarProveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBuscarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormBuscarProducto.Designer.cs">
       <DependentUpon>FormBuscarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrdenCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrdenCompra.Designer.cs">
+      <DependentUpon>FormOrdenCompra.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSolicitarCotizacion.cs">
       <SubType>Form</SubType>
@@ -111,8 +123,14 @@
     <Compile Include="Ventas.Designer.cs">
       <DependentUpon>Ventas.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormAgregarProveedor.resx">
+      <DependentUpon>FormAgregarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormBuscarProducto.resx">
       <DependentUpon>FormBuscarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrdenCompra.resx">
+      <DependentUpon>FormOrdenCompra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSolicitarCotizacion.resx">
       <DependentUpon>FormSolicitarCotizacion.cs</DependentUpon>
