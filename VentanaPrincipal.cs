@@ -79,5 +79,12 @@ namespace Multiventas_Krisstelle
             Ventas ventas = new Ventas();
             ventas.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }

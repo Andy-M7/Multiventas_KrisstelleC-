@@ -175,6 +175,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="IMG\Inventario.png" />
+    <None Include="Resources\LOGOBLANCO1.png" />
+    <None Include="Resources\LOGOBLANCO.png" />
+    <None Include="Resources\bg.jpg" />
+    <None Include="Resources\banner.png" />
     <None Include="Resources\Inventario63.png" />
     <None Include="Resources\RegistrarProducto.png" />
     <None Include="Resources\Inventario.png" />

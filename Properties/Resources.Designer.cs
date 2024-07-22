@@ -63,6 +63,26 @@ namespace Multiventas_Krisstelle.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap banner {
+            get {
+                object obj = ResourceManager.GetObject("banner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg {
+            get {
+                object obj = ResourceManager.GetObject("bg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap botonSalir {
             get {
                 object obj = ResourceManager.GetObject("botonSalir", resourceCulture);
@@ -106,6 +126,26 @@ namespace Multiventas_Krisstelle.Properties {
         internal static System.Drawing.Bitmap Inventario63 {
             get {
                 object obj = ResourceManager.GetObject("Inventario63", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LOGOBLANCO {
+            get {
+                object obj = ResourceManager.GetObject("LOGOBLANCO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LOGOBLANCO1 {
+            get {
+                object obj = ResourceManager.GetObject("LOGOBLANCO1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
